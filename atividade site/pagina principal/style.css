@@ -1,0 +1,120 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+label {
+    display: block;
+}
+
+.Titulo {
+    padding: 10px;
+}
+
+.inicio {
+    padding: 10px;
+}
+
+.Fim {
+    padding: 10px;
+}
+
+.Tipo {
+    padding: 10px;
+
+}
+
+.Local {
+    padding: 10px;
+}
+
+.Descrição {
+    padding: 10px;
+}
+
+.dados {
+    padding: 10px;
+}
+
+.Email {
+    padding: 10px;
+}
+
+.telefone {
+    padding: 10px;
+}
+
+.Personalizaçao {
+    padding: 10px;
+}
+
+.contato {
+    padding: 20px;
+}
+
+.Gerar {
+    padding: 30px;
+}
+
+.Titulo input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.inicio input[type="datetime-local"] {
+    width: 240px;
+    height: 30px;
+}
+
+.Tipo input[type="select"] {
+    width: 500px;
+    height: 30px;
+}
+
+.Local input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.Descrição input[type="text"] {
+    width: 500px;
+    height: 100px;
+}
+
+.dados input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.Email input[type="email"] {
+    width: 500px;
+    height: 30px;
+}
+
+.telefone input[type="text"] {
+    width: 500px;
+    height: 30px;
+}
+
+.Fim input[type="datetime-local"] {
+    width: 240px;
+    height: 30px;
+}
+
+.Teste {
+    display: flex;
+}
+
+.Cor {
+    padding: 25px;
+}
+
+.teste2 {
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+
+}

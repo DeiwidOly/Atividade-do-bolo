@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Criar convite</title>
+</head>
+<body>
+<form action="convite.php" method="post" enctype="multipart/form-data">
+  <main>
+
+    <div class="frases">
+      <h1>Crie seu convite</h1>
+    </div>
+
+    <div class="Sobre">
+      <h3>Sobre o evento</h3>
+    </div>
+
+    <div class="Titulo">
+      <label for="">Titulo</label>
+      <input type="text" placeholder="Nome do evento" name="titulo" id="">
+    </div>
+
+    <div class="Teste">
+      <div class="inicio">
+        <label for="">Inicio</label>
+        <input type="datetime-local" name="inicio" id="">
+      </div>
+
+      <div class="Fim">
+        <label for="">Fim</label>
+        <input type="datetime-local" name="fim" id="">
+      </div>
+    </div>
+
+    <div class="Tipo">
+      <label for="">Tipo</label>
+      <select name="tipo">
+        <option name="tipo" value="Presencial">Presencial</option>
+        <option name="tipo" value="Online">Online</option>
+      </select>
+    </div>
+
+    <div class="Local">
+      <label for="">Local</label>
+      <input type="text" placeholder="Link ou endereço" name="Local" id="">
+    </div>
+
+    <div class="Descrição">
+      <label for="">Descrição</label>
+      <input type="text" placeholder="Escreva sobre os detalhes do evento" name="descricao" id="">
+    </div>
+
+    <div class="person">
+      <h3>Personalização</h3>
+    </div>
+
+    <div class="Cor">
+      <label for="">Cor principal</label>
+      <input type="color" name="cor" id="">
+    </div>
+
+    <h3>Tema do evento</h3>
+    <div class="Personalizaçao">
+      <select name="tema">
+        <option value="">Escolha o seu tema</option>
+        <option value="Aniversario">Aniversário</option>
+        <option value="Infantil">Infantil</option>
+        <option value="Formatura">Formatura</option>
+        <option value="Casamento">Casamento</option>
+        <option value="Cha de bebê">Chá de bebê</option>
+        <option value="Cha de panela">Chá de panela</option>
+        <option value="Carnaval">Carnaval</option>
+        <option value="Pascoa">Páscoa</option>
+        <option value="Sao João">São João</option>
+        <option value="Halloween">Halloween</option>
+        <option value="Natal">Natal</option>
+        <option value="Outro">Outro</option>
+      </select>
+    </div>
+
+    <div class="teste2">
+      <div class="Escuro">
+        <label for="">Estilo</label>
+        <input type="checkbox" name="estilo" id=""> Escuro
+      </div>
+
+      <div>
+        <label for="">Foto da capa</label>
+        <input type="file" name="foto" id="">
+      </div>
+    </div>
+
+    <h3>Dados para contato</h3>
+    <div class="dados contato">
+      <label for="">Nome</label>
+      <input type="text" placeholder="Nome completo" name="nome" id="">
+    </div>
+
+    <div class="Email">
+      <label for="">E-mail</label>
+      <input type="email" placeholder="exemplo@gmail.com" name="email" id="">
+    </div>
+
+    <div class="telefone">
+      <label for="">Telefone</label>
+      <input type="text" placeholder="(99)99999-9999" name="telefone" id="">
+    </div>
+
+    <div class="Termos e condiçoes">
+      <label class="Condiçoes">
+        <input type="checkbox" name="termos" id="">
+        Li e concordo com os Termos e Condições e com a Política de Privacidade
+      </label>
+    </div>
+
+    <div class="Atualizaçoes">
+      <label class="Atualizaçoes">
+        <input type="checkbox" name="atualizacoes_email" id="">
+        Aceito receber atualizações e promoções por e-mail
+      </label>
+    </div>
+
+    <div class="Promoçoes">
+      <label class="Promoçoes">
+        <input type="checkbox" name="atualizacoes_sms" id="">
+        Aceito receber atualizações e promoções por SMS
+      </label>
+    </div>
+
+    <div class="Gerar convite">
+      <button type="submit">Gerar convite</button>
+    </div>
+
+  </main>
+</form>
+</body>
+</html>
